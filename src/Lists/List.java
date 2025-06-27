@@ -9,5 +9,7 @@ package Lists;
  * @author User
  */
 public interface List<T> {
+    public void showAll();
     public T find(Object id);
+
 }
