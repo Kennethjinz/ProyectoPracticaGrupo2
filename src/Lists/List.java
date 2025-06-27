@@ -8,6 +8,8 @@ package Lists;
  *
  * @author Student
  */
-public interface List {
-    
+public interface List<T> {
+    public boolean remove(T t);
+    public T find(Object id);
+
 }
