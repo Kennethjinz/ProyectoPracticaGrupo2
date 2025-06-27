@@ -6,8 +6,10 @@ package Lists;
 
 /**
  *
- * @author User
+ * @author User,jprod
  */
-public interface List<T> {
+public interface List <T> {
+    public boolean add(T t);
     public T find(Object id);
+   
 }
