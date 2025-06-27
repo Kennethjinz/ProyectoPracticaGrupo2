@@ -6,8 +6,10 @@ package Lists;
 
 /**
  *
+<<<<<<< HEAD
  * @author Yumor
  */
-public interface List {
-    
+public interface List<T> {
+    public void showAll();
+    public T find(Object id);
 }
